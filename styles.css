@@ -2,6 +2,8 @@ body {
   background-color: #f2f2f2;
 }
 
+/* CSS Flexbox layout */
+
 .flexbox-wrapper {
   height: 100vh;
   display: flex;
@@ -51,6 +53,8 @@ p {
   opacity: 0.7;
 }
 
+/* Styling the content (title and text) */
+
 .style-title {
   color: white;
   font-style: normal;
@@ -64,6 +68,8 @@ p {
   font-family: "Lexend Deca";
   font-weight: 400;
 }
+
+/* Styling the buttons */
 
 .button {
   border-radius: 20px;
@@ -96,6 +102,8 @@ p {
   border-color: white;
   border-width: 2px;
 }
+
+/* Media query for mobile responsive layout */
 
 @media (max-width: 700px) {
   .flexbox-wrapper {
