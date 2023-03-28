@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #f2f2f2;
 }
 
 .flexbox-wrapper {
@@ -47,6 +47,8 @@ h1 {
 
 p {
   padding-bottom: 40px;
+  color: white;
+  opacity: 0.7;
 }
 
 .style-title {
@@ -57,7 +59,6 @@ p {
 }
 
 .style-text {
-  color: #f2f2f2;
   font-size: 0.75rem;
   font-style: normal;
   font-family: "Lexend Deca";
@@ -98,13 +99,14 @@ p {
 
 @media (max-width: 700px) {
   .flexbox-wrapper {
-    margin: 200px auto;
+    margin: 250px auto;
   }
   .flexbox {
     display: flex;
     flex-direction: column;
 
-    height: 1000px;
+    height: 1100px;
+    width: 260px;
 
     border-radius: 5px;
     overflow: hidden;
@@ -121,7 +123,8 @@ p {
   .box1,
   .box2,
   .box3 {
-    width: 300px;
+    width: 100%;
+    padding: 40px 40px 40px 40px;
   }
   p {
     padding-bottom: 10px;
