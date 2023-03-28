@@ -98,25 +98,28 @@ p {
 
 @media (max-width: 700px) {
   .flexbox-wrapper {
-    margin: 40px auto;
+    margin: 300px auto;
   }
   .flexbox {
     display: flex;
     flex-direction: column;
 
-    height: 1400px;
+    height: 1200px;
 
     border-radius: 5px;
     overflow: hidden;
   }
   .box1 {
     height: 33%;
+    width: 300px;
   }
   .box2 {
     height: 34%;
+    width: 300px;
   }
   .box3 {
     height: 33%;
+    width: 300px;
   }
 }
 
