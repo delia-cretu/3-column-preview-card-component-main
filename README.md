@@ -25,6 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
+![](./screenshot.jpg)
+
 ### Links
 
 - Solution URL: https://github.com/delia-cretu/3-column-preview-card-component-main
