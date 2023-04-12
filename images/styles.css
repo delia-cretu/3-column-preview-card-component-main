@@ -1,0 +1,132 @@
+body {
+  background-color: #f2f2f2;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 730px;
+
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.sedan-container {
+  background-color: #e38826;
+}
+
+.suv-container {
+  background-color: #006970;
+}
+
+.luxury-container {
+  background-color: #004241;
+}
+
+.sedan-container,
+.suv-container,
+.luxury-container {
+  width: 33.33%;
+  padding: 30px 43px 30px 30px;
+}
+
+h1 {
+  padding: 30px 0 20px 0;
+}
+
+p {
+  padding-bottom: 40px;
+  color: white;
+  opacity: 0.7;
+}
+
+/* Styling the content (title and text) */
+
+.style-title {
+  color: white;
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+}
+
+.style-text {
+  font-size: 0.75rem;
+  font-family: "Lexend Deca";
+}
+
+/* Styling the buttons */
+
+.button {
+  border-radius: 20px;
+  background-color: white;
+  width: 110px;
+  height: 35px;
+}
+
+.sedan-container .button {
+  color: #e38826;
+  border-color: #e38826;
+  border-width: 2px;
+}
+
+.suv-container .button {
+  color: #006970;
+  border-color: #006970;
+  border-width: 2px;
+}
+
+.luxury-container .button {
+  color: #004241;
+  border-color: #004241;
+  border-width: 2px;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-width: 2px;
+}
+
+/* Media query for mobile responsive layout */
+
+@media (max-width: 700px) {
+  main {
+    margin: 250px auto;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+
+    height: 1100px;
+    width: 260px;
+
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .sedan-container,
+  .suv-container,
+  .luxury-container {
+    height: 33.33%;
+    width: 100%;
+    padding: 40px 40px 40px 40px;
+  }
+  p {
+    padding-bottom: 10px;
+  }
+}
+
+/* Footer */
+
+.attribution {
+  text-align: center;
+  font-size: 0.75rem;
+}
